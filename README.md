@@ -1,4 +1,4 @@
-# Sales_pizza---SQL
+# :writing_hand:Sales_pizza---SQL:writing_hand:
 
 MYSQL - Data Manipulation And Data Analysis.
 
