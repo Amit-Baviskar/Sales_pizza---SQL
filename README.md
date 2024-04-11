@@ -2,7 +2,7 @@
 
 MYSQL - Data Manipulation And Data Analysis.
 
-# Question
+# :dart: Question :dart:
 
 Retrieve the total number of orders placed.
 
