@@ -108,10 +108,10 @@ ORDER BY Total_quantity_sold DESC;
 ## Group the orders by date and calculate the average number of pizzas ordered per day.
 
 SELECT 
-      orders.Order_date, round(AVG(order_id),2) AS AVERAGE
+      DATE(orders.Order_date), round(AVG(order_id),2) AS AVERAGE
 FROM
     orders
-GROUP BY DATE(Order_date) 
+GROUP BY DATE(orders.Order_date) 
 ORDER BY AVERAGE ASC;
 
 
